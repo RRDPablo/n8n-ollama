@@ -1,0 +1,43 @@
+ Como Scrum Master, sigo las instrucciones proporcionadas:
+
+**Visión de producto:**
+Genero un backlog inicial basado en la visión de producto proporcionada:
+
+1. BackendTasks:
+   - Implementar API para procesar operaciones aritméticas básicas (suma, resta, multiplicación, división) y almacenamiento de últimos cálculos realizados.
+   - Implementar almacenamiento seguro y privado para datos de usuario.
+   - Implementar protección contra ataques cibernéticos y garantía de almacenamiento y transmisión de datos de manera segura y privada.
+
+2. BackendTasks (Requisito no funcionales):
+   - Asegurar compatibilidad con dispositivos móviles y escritorio, incluyendo iOS, Android e Windows.
+   - Implementar procesamiento rápido y eficiente para proporcionar resultados sin retrasos significativos.
+
+3. FrontendTasks:
+   - Creación de una interfaz simple y intuitiva que permita acceder a las funciones de la calculadora con facilidad.
+   - Implementar adaptabilidad y accesibilidad para personas con discapacidades visuales o motoras.
+
+4. FrontendTasks (Requisito no funcionales):
+   - Asegurar compatibilidad con dispositivos móviles y escritorio, incluyendo iOS, Android e Windows.
+
+5. Historia de usuario 1: Como usuario de la calculadora quiero poder sumar dos números para resolver una tarea matemática sencilla.
+   - frontendTasks: Creación de un botón "Sumar" que muestre un teclado numérico al presionarse.
+   - backendTasks: Implementar el procesamiento y presentación del resultado correcto de la operación de suma.
+
+6. Historia de usuario 2: Como usuario quiero poder restar dos números en la calculadora para calcular el cambio monetario.
+   - frontendTasks: Creación de un botón "Restar" que muestre un teclado numérico al presionarse.
+   - backendTasks: Implementar el procesamiento y presentación del resultado correcto de la operación de resta.
+
+7. Historia de usuario 3: Como usuario necesito multiplicar dos valores en la calculadora para hacer cálculos financieros o de medicina.
+   - frontendTasks: Creación de un botón "Multiplicar" que muestre un teclado numérico al presionarse.
+   - backendTasks: Implementar el procesamiento y presentación del resultado correcto de la operación de multiplicación.
+
+8. Historia de usuario 4: Como usuario quiero dividir dos números para resolver problemas matemáticos o realizar divisiones decimales.
+   - frontendTasks: Creación de un botón "Dividir" que muestre un teclado numérico al presionarse.
+   - backendTasks: Implementar el procesamiento y presentación del resultado correcto de la operación de división.
+
+9. Historia de usuario 5: Como usuario quiero tener la opción de cambiar la precisión del resultado según mis preferencias y necesidades.
+   - frontendTasks: Creación de un campo para ingresar la precisión deseada.
+   - backendTasks: Implementar el procesamiento y presentación del resultado en función de la precisión seleccionada por el usuario.
+
+10. Historia de usuario 6: Como usuario de la calculadora quiero poder guardar los últimos cálculos realizados en una lista para volver a ellos más tarde.
+    - backendTasks: Implementar la almacenamiento y presentación de los últimos cálculos realizados.
