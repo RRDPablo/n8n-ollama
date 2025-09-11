@@ -1,0 +1,23 @@
+ Visión de producto:
+Una calculadora web sencilla y rápida que permita a los usuarios realizar operaciones matemáticas elementales con eficacia. El objetivo es proporcionar un herramiento útil y fácil de utilizar para resolver problemas cotidianos de cálculo.
+
+Historias de usuario:
+1. Como usuario, quiero agregar dos números en la calculadora para poder realizar suma aritmética.
+2. Como usuario, quiero seleccionar una operación matemática (suma, resta, multiplicación o división) para poder realizar diferentes tipos de cálculos.
+3. Como usuario, quiero introducir números en la calculadora para poder utilizar valores personalizados en mis cálculos.
+4. Como usuario, quiero ver el resultado de mi cálculo inmediatamente después de presionar el botón de igual para optimizar el flujo de trabajo.
+5. Como usuario, quiero poder limpiar la pantalla de la calculadora cuando me sea necesario comenzar nuevos cálculos.
+
+Criterios de aceptación:
+1. La calculadora debe procesar correctamente las operaciones matemáticas elementales (suma, resta, multiplicación y división) sin errores.
+2. Los valores introducidos por el usuario en la calculadora deben ser almacenados y procesados según la operación seleccionada.
+3. El botón de igual debe mostrar el resultado correcto del cálculo realizado.
+4. El botón de limpiar debe vaciar completamente la pantalla de la calculadora, preparándola para iniciar nuevos cálculos.
+5. La interfaz de usuario debe ser intuitiva y fácil de utilizar para optimizar la experiencia del usuario.
+
+Requisitos no funcionales:
+1. La calculadora debe ser compatible con dispositivos móviles y escritorio.
+2. La carga de la calculadora web debe ser rápida para ofrecer una experiencia óptima al usuario.
+3. El diseño de la calculadora debe cumplir con las normas de accesibilidad web para que sea utilizable por personas con discapacidades.
+4. La calculadora web debe ser segura y proteger la privacidad de los usuarios almacenando solo los números introducidos y no guardar información personal.
+5. La calculadora web debe ser hospedada en un servidor confiable para ofrecer una experiencia sin errores al usuario.
