@@ -1,0 +1,63 @@
+ Como desarrollador backend, realizo las siguientes tareas basadas en la información proporcionada por el Scrum Master:
+
+1. Implementación API para procesar operaciones aritméticas básicas (suma, resta, multiplicación y división).
+   Lenguaje de programación: Python
+
+```python
+import flask
+
+app = flask.Flask(__name__)
+
+@app.route('/sumar/<num1>/<num2>')
+def sumar(num1, num2):
+    resultado = float(num1) + float(num2)
+    return str(resultado)
+
+@app.route('/restar/<num1>/<num2>')
+def restar(num1, num2):
+    resultado = float(num1) - float(num2)
+    return str(resultado)
+
+@app.route('/multiplicar/<num1>/<num2>')
+def multiplicar(num1, num2):
+    resultado = float(num1) * float(num2)
+    return str(resultado)
+
+@app.route('/dividir/<num1>/<num2>')
+def dividir(num1, num2):
+    if num2 != 0:
+        resultado = float(num1) / float(num2)
+        return str(resultado)
+    else:
+        return "Error: Division por cero"
+```
+
+2. Implementación para almacenamiento seguro y privado de datos del usuario.
+   Lenguaje de programación: Python (Utilizando el framework Flask-SQLAlchemy)
+
+```python
+from flask import Flask, request
+from flask_sqlalchemy import SQLAlchemy
+import os
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost/dbname'
+db = SQLAlchemy(app)
+
+class Calculo(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    num1 = db.Column(db.Float, nullable=False)
+    operador = db.Column(db.String(5), nullable=False)
+    num2 = db.Column(db.Float, nullable=False)
+    resultado = db.Column(db.Float, nullable=False)
+
+@app.route('/guardar', methods=['POST'])
+def guardar():
+    num1 = request.json['num1']
+    operador = request.json['operador']
+    num2 = request.json['num2']
+    resultado = request.json['resultado']
+    calculo = Calculo(num1=num1, operador=operador, num2=num2, resultado=resultado)
+    db.session.add(calculo)
+    db.session.commit()
+```
