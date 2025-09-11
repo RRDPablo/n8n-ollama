@@ -1,0 +1,132 @@
+ En esta respuesta, estaré proporcionando el código HTML/CSS/JavaScript para las tareas frontend especificadas en el backlog. Cada archivo representa una historia de usuario individual.
+
+**index.html** (Página principal)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Contenedor principal -->
+  <div id="container">
+    <!-- Cajas de operación -->
+    <div id="operaciones">
+      <!-- Botón sumar -->
+      <button onclick="sumar()" id="btnSumar">Sumar</button>
+      <!-- Botón restar -->
+      <button onclick="restar()" id="btnRestar">Restar</button>
+      <!-- Botón multiplicar -->
+      <button onclick="multiplicar()" id="btnMultiplicar">Multiplicar</button>
+      <!-- Botón dividir -->
+      <button onclick="dividir()" id="btnDividir">Dividir</button>
+    </div>
+
+    <!-- Resultado -->
+    <h1 id="resultado"></h1>
+  </div>
+
+  <!-- Teclados numéricos -->
+  <div id="tecladoNumerico" style="display: none;">
+    <input type="number" id="numero1" maxlength="8" placeholder="Ingrese un número">
+    <select id="operador"></select>
+    <input type="number" id="numero2" maxlength="8" placeholder="Ingrese otro número">
+  </div>
+
+  <!-- Teclado numérico de configuración -->
+  <div id="tecladoConfiguracion" style="display: none;">
+    <label for="precision">Precisión:</label>
+    <input type="number" id="precision" min="1" max="20" step="1">
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
+```
+
+**styles.css** (Estilos CSS)
+```css
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #5E9FA3;
+  color: white;
+  margin-right: 10px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+```
+
+**app.js** (JavaScript)
+```javascript
+// Constantes para los elementos HTML
+const btnSumar = document.getElementById('btnSumar');
+const btnRestar = document.getElementById('btnRestar');
+const btnMultiplicar = document.getElementById('btnMultiplicar');
+const btnDividir = document.getElementById('btnDividir');
+const resultado = document.getElementById('resultado');
+const tecladoNumerico = document.getElementById('tecladoNumerico');
+const tecladoConfiguracion = document.getElementById('tecladoConfiguracion');
+
+// Objetos para los numeros y el operador
+let numero1, numero2;
+let operador;
+
+// Función para mostrar o esconder el teclado numérico
+function mostrarTeclado() {
+  if (tecladoNumerico.style.display === 'none') {
+    tecladoNumerico.style.display = 'block';
+    tecladoConfiguracion.style.display = 'none';
+  } else {
+    tecladoNumerico.reset();
+    tecladoNumerico.style.display = 'none';
+  }
+}
+
+// Función para realizar la operación de suma
+function sumar() {
+  mostrarTeclado();
+  operador = '+';
+}
+
+// Función para realizar la operación de resta
+function restar() {
+  mostrarTeclado();
+  operador = '-';
+}
+
+// Función para realizar la operación de multiplicación
+function multiplicar() {
+  mostrarTeclado();
+  operador = '*';
+}
+
+// Función para realizar la operación de división
+function dividir() {
+  mostrarTeclado();
+  operador = '/';
+}
+```
