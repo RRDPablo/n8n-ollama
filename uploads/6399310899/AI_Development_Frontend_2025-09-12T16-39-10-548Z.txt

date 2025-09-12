@@ -1,0 +1,62 @@
+ Completa las siguientes tareas de acuerdo a las reglas establecidas:
+
+Tarea 1.3: Creación del botón para sumar en el frontend
+- archivo: `frontend/src/components/Calculadora.js`
+- código:
+```javascript
+// ... (código anterior)
+const sumar = () => {
+  axios.get(`/api/sumar?num1=${num1}&num2=${num2}`)
+    .then((response) => setResultado(response.data.result));
+};
+// ... (resto del código)
+
+const Calculadora = () => {
+  // ... (código anterior)
+  return (
+    <div className="App">
+      <h1>Calculadora</h1>
+      <form>
+        <label htmlFor="num1">Numero 1:</label>
+        <input type="text" id="num1" value={num1} onChange={e => setNum1(e.target.value)} />
+        <label htmlFor="num2">Numero 2:</label>
+        <input type="text" id="num2" value={num2} onChange={e => setNum2(e.target.value)} />
+      </form>
+      <button onClick={() => sumar()}>Sumar</button>
+      // ... (resto del código)
+    </div>
+  );
+};
+export default Calculadora;
+```
+
+Tarea 1.4: Testeo del resultado suma en el frontend
+- archivo: `frontend/tests/CalculadoraTest.js`
+- código:
+```javascript
+import React from 'react';
+import { render, fireEvent } from '@testing-library/react';
+import Calculadora from './Calculadora';
+import axios from 'axios';
+import MockAdapter from 'axios-mock-adapter';
+
+jest.spyOn(axios, 'get');
+
+describe('Suma', () => {
+  it('Debería obtener el resultado correcto al sumar dos números', async () => {
+    axios.get.mockResolvedValue({ data: { result: 10 } });
+
+    const { getByText, getByTestId } = render(<Calculadora />);
+
+    const num1Input = getByTestId('num1');
+    const num2Input = getByTestId('num2');
+    const sumarButton = getByText('Sumar');
+
+    fireEvent.change(num1Input, { target: { value: '5' } });
+    fireEvent.change(num2Input, { target: { value: '5' } });
+    fireEvent.click(sumarButton);
+
+    expect(getByText('10')).toBeInTheDocument();
+  });
+});
+```
