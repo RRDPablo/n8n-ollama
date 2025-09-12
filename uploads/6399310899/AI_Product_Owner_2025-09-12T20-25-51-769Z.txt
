@@ -1,0 +1,23 @@
+ Visión de producto:
+Una calculadora básica y sencilla diseñada para realizar operaciones matemáticas elementales rápidamente. Se enfatiza en la simplicidad, eficacia y accesibilidad, brindando una interfaz intuitiva y fácil de usar.
+
+Historias de usuario:
+1. Como usuario común, quiero poder sumar dos números para realizar operaciones rápidas y sencillas en mi dispositivo.
+2. Como usuario estudiante o profesional, quiero calcular la diferencia entre dos números, para tener una herramienta efectiva en mis cálculos diarios.
+3. Como usuario experimentado, quiero saber el producto de dos números, para resolver problemas complejos y obtener resultados precisos.
+4. Como usuario interesado en la división, deseo conocer la cuota o fracción resultante de dividir dos números, brindándome una solución sencilla a mis consultas matemáticas.
+5. Como usuario conectado al mundo digital, espero que mi calculadora básica y sencilla sea compatible con diferentes dispositivos móviles y plataformas, facilitando su uso en cualquier lugar.
+
+Criterios de aceptación:
+1. La calculadora debe calcular correctamente las operaciones matemáticas elementales (suma, resta, multiplicación y división).
+2. Se debe proporcionar un diseño intuitivo e interfaz fácil de usar, permitiendo a los usuarios acceder a sus operaciones rápidamente.
+3. El botón para borrar el último dígito ingresado debe estar presente y funcionar correctamente.
+4. La calculadora debe soportar la entrada de numeros hasta cierta cantidad (ejemplo: 16 dígitos).
+5. El resultado de cada operación se debe mostrar en pantalla con precisión.
+
+Requisitos no funcionales:
+1. La calculadora debe soportar diferentes dispositivos móviles y plataformas, incluyendo Android y iOS.
+2. La aplicación debe ser compatible con diferentes tamaños de pantalla para garantizar una interfaz fácil de usar en dispositivos móviles y tabletas.
+3. La calculadora debe ser rápida y eficaz, proporcionando resultados prontos a los usuarios.
+4. La app debe tener un diseño elegante y moderno, que fomente el uso regular por parte del usuario.
+5. La calculadora debe ser segura y proteger la privacidad de sus usuarios, no almacenando o compartiendo información personal sin consentimiento explícito.
