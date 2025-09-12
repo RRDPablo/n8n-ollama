@@ -1,0 +1,20 @@
+ Visión de producto:
+Una aplicación móvil básica y sencilla para realizar cálculos básicos como suma, resta, multiplicación y división. Atraerá a los usuarios que buscan una herramienta rápida y fácil de utilizar para resolver sus necesidades diarias de cálculo.
+
+Historias de usuario:
+1. Como usuario, quiero sumar dos números para realizar una operación simple.
+2. Como usuario, quiero restar dos números para calcular la diferencia entre ellos.
+3. Como usuario, quiero multiplicar dos números para determinar su producto.
+4. Como usuario, quiero dividir dos números para obtener el cociente y resultado decimal.
+
+Criterios de aceptación:
+1. La aplicación debe permitir introducir dos valores por teclado o cargarlos desde una lista predefinida.
+2. Al hacer clic en el botón correspondiente, la aplicación debe mostrar el resultado correcto de la operación matemática seleccionada.
+3. La aplicación debe proporcionar una interfaz intuitiva y fácil de utilizar para que los usuarios puedan navegar por ella sin problemas.
+4. La aplicación debe permitir guardar una historia de las operaciones realizadas recientemente, de manera que los usuarios puedan volver a ellas más tarde.
+
+Requisitos no funcionales:
+1. La aplicación debe ser compatible con diferentes versiones del sistema operativo móvil.
+2. La aplicación debe estar optimizada para funcionar rápidamente y sin bloqueos, incluso cuando el usuario realiza operaciones complejas o con valores grandes.
+3. La aplicación debe ser segura, protegiendo los datos personales de los usuarios y no permitiendo la transferencia accidental de información confidencial.
+4. La aplicación debe tener una interfaz intuitiva y atractiva que atraiga a los usuarios con diferentes niveles de experiencia en la computación móvil.
