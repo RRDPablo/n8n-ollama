@@ -1,0 +1,35 @@
+  A continuación se presenta una lista de tareas para el Sprint basándome en las historias de usuario y los requisitos no funcionales proporcionados:
+
+**frontendTasks:**
+
+1. Diseño de la interfaz (Figma):
+   - Deriva de la visión de producto
+2. Implementación del diseño en HTML y CSS (index.html, style.css):
+    - Deriva de la tarea 1
+3. Creación del botón "Suma" (sumar.js):
+   - Deriva de la historia de usuario 1
+4. Creación del botón "Resta" (restar.js):
+   - Deriva de la historia de usuario 2
+5. Creación del botón "Multiplicación" (multiplicar.js):
+    - Deriva de la historia de usuario 3
+6. Creación del botón "División" (dividir.js):
+   - Deriva de la historia de usuario 4
+7. Implementación de la lógica para presentar el diseño en diferentes tamaños de pantalla:
+   - Deriva del requisito no funcional 2
+8. Diseño y desarrollo del botón "Borrar último dígito ingresado" (borrarUltimoDigito.js):
+    - Deriva de la historia de usuario 5
+9. Ajustes finales para asegurar el diseño elegante y moderno:
+   - Deriva del requisito no funcional 4
+10. Testeo y corrección de errores en diferentes dispositivos móviles:
+   - Deriva del requisito no funcional 1
+
+**backendTasks:**
+
+1. Implementación de lógica para realizar operaciones matemáticas (Java o Kotlin):
+    - Indicar el lenguaje de programación en la tarea.
+2. Integración con API para recibir y procesar los cálculos realizados por el usuario:
+   - Deriva del requisito no funcional 5.
+3. Integración con base de datos para almacenar historial de operaciones:
+   - Opcional, puede ser agregado como tarea adicional.
+4. Integración con servicio de autenticación y seguridad para proteger la privacidad de los usuarios:
+   - Deriva del requisito no funcional 5.
