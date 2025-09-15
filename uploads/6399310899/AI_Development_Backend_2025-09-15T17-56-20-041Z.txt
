@@ -1,0 +1,12 @@
+  Para esta lista de tareas, como desarrollador backend, mi backlog inicial sería lo siguiente:
+
+**Product Backlog (Backend)**
+
+| ID | Título | Priority | Historia de Usuario / Product Owner | Tipo | Tarea | Lenguaje de Programación |
+|---|---|---|---|---|---|
+| B004 | Integración de protección contra inyecciones SQL en la aplicación | Alta | Historia de desarrollador | backend | Implementar medidas de protección contra inyecciones SQL | Node.js, Sequelize |
+| B005 | Implementación de cifrado de datos sensibles en la aplicación | Alta | Historia de desarrollador | backend | Cifrar información sensible almacenada o transmitida mediante medidas de seguridad y privacidad requeridas para aplicaciones financieras o comerciales | Node.js, Sequelize |
+| B007 | Optimización del rendimiento de la calculadora | Alta | Requisito no funcional | backend | Implementar optimizaciones para mejorar el rendimiento y evitar retrasos o errores en las operaciones matemáticas | Node.js, Sequelize |
+| B003 | Desarrollo del código JavaScript para el funcionamiento de la calculadora (backend) | Alta | Historia de usuario 1 | backend | Implementar lógica de cálculo para las cuatro operaciones básicas matemáticas | JavaScript |
+
+En mi caso, solo trabajaría en las tareas relacionadas con el backend. Por lo tanto, la prioridad del backlog se basa en las necesidades del desarrollador. La tarea B004 "Integración de protección contra inyecciones SQL" es una tarea crítica para garantizar la seguridad de la aplicación. La tarea B005 "Implementación de cifrado de datos sensibles" también es importante para cumplir con los estándares de seguridad y privacidad requeridos para aplicaciones financieras o comerciales. La tarea B007 "Optimización del rendimiento de la calculadora" se puede trabajar en paralelo con las otras tareas, ya que es importante mejorar el rendimiento de la aplicación. Finalmente, la tarea B003 "Desarrollo del código JavaScript para el funcionamiento de la calculadora (backend)" sería la responsabilidad principal, ya que se trata del núcleo de la aplicación.
