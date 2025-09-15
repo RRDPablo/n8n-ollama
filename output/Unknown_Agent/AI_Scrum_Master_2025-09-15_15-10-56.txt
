@@ -1,0 +1,40 @@
+ Bienvenido! Como Scrum Master, mi rol es recibir el product backlog proporcionado por el Product Owner y transformarlo en entregables para el equipo de desarrollo utilizando la metodología Scrum.
+
+Vamos a trabajar con lo siguiente:
+
+1. Visión de producto: Una aplicación móvil para realizar operaciones básicas matemáticas de suma, resta, multiplicación y división.
+2. Historias de usuario:
+   - Como usuario quiero poder ingresar dos números en la pantalla para que la calculadora los sume correctamente (task_sum).
+   - Como usuario quiero poder ingresar dos números en la pantalla para que la calculadora los reste correctamente (task_subtract).
+   - Como usuario quiero poder ingresar dos números en la pantalla para que la calculadora los multiplique correctamente (task_multiply).
+   - Como usuario quiero poder ingresar dos números en la pantalla para que la calculadora los divida correctamente (task_divide).
+3. Criterios de aceptación:
+   - Definition of Done: La calculadora debe mostrar el resultado correcto de las operaciones matemáticas solicitadas por el usuario (DoD_correct_result).
+   - Definition of Done: La interfaz gráfica de la calculadora debe ser intuitiva y fácil de utilizar (DoD_intuitive_interface).
+   - Definition of Done: La calculadora debe permitir que el usuario ingrese decimales (DoD_decimal_input).
+4. Requisitos no funcionales:
+   - Documento: Soportar pantallas de diferentes tamaños para dispositivos móviles (task_responsive_design).
+   - Documento: Optimización del consumo de energía y memoria (task_optimization).
+   - Documento: Desarrollado utilizando los estándares de diseño material de Google (task_material_design).
+
+Ahora, vamos a separar las tareas en frontend y backend.
+
+**backendTasks:**
+
+1. Implementación del servicio de operaciones matemáticas (suma, resta, multiplicación y división) (task_math_service).
+2. Validación de datos de entrada (numeros validos) (task_input_validation).
+3. Documento: Soportar pantallas de diferentes tamaños para dispositivos móviles (task_responsive_design).
+4. Documento: Optimización del consumo de energía y memoria (task_optimization).
+5. Documento: Desarrollado utilizando los estándares de diseño material de Google (task_material_design).
+
+**frontendTasks:**
+
+1. Creación de la interfaz gráfica para ingresar números y mostrar resultados (task_interface_numbers).
+2. Implementación del controlador que maneja los eventos de entrada y comunicación con el servicio backend (task_controller_input).
+3. Creación de la interfaz gráfica para permitir al usuario ingresar decimales (task_decimal_input).
+4. Documento: Definición de un estilo visual consistente y fácil de utilizar (task_visual_style).
+5. Documento: Implementación del estándar de diseño material de Google (task_material_design).
+
+En este momento, he preparado, organizado y asignado la información adecuadamente para los equipos de desarrollo frontend y backend. Ahora puedes enviar las listas simultáneamente a Dev 1 (backend) y Dev 2 (frontend). No mezclar instrucciones de frontend y backend dentro de la misma tarea.
+
+Mantengo un lenguaje profesional y claro en todas las tareas generadas, indicando de qué historia de usuario o requisito del Product Owner proviene cada tarea, y garantizando coherencia con la visión y objetivos del producto.
