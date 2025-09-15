@@ -1,0 +1,17 @@
+ Visión de producto:
+Una aplicación móvil intuitiva y eficiente para realizar operaciones básicas matemáticas como suma, resta, multiplicación y división.
+
+Historias de usuario:
+- Como usuario final quiero tener la opción de agregar números y seleccionar una operación aritmética (suma, resta, multiplicación o división) para obtener el resultado correcto de manera instantánea.
+- Como desarrollador quiero crear una aplicación que cumpla con estándares de seguridad y privacidad requeridos para aplicaciones financieras o comerciales.
+
+Criterios de aceptación:
+- La calculadora debe ser capaz de realizar correctamente las cuatro operaciones básicas matemáticas.
+- El usuario debe poder ingresar los números y seleccionar la operación aritmética utilizando una interfaz intuitiva y amigable al usuario.
+- El resultado final de cada operación debe mostrarse en pantalla inmediatamente después de presionar el botón correspondiente.
+- La aplicación debe cumplir con los estándares de seguridad y privacidad requeridos para aplicaciones financieras o comerciales.
+
+Requisitos no funcionales:
+- La calculadora debe ser compatible con dispositivos móviles Android e iOS.
+- Debe tener un diseño intuitivo y fácil de usar, con una interfaz gráfica limpia y ordenada.
+- La calculadora debe ser optimizada para ofrecer un rendimiento ágil y eficiente, permitiendo al usuario realizar operaciones en tiempo real sin retrasos o errores.
