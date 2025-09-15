@@ -1,0 +1,130 @@
+ Como frontend developer, mi tarea es programar el código correspondiente a las tareas que me han sido asignadas por el Scrum Master para la aplicación móvil de calculadora:
+
+1. Creación de la interfaz gráfica para ingresar números y mostrar resultados (task_interface_numbers).
+   - Utilizando HTML, CSS y JavaScript, creo una interfaz con dos campos de texto para ingresar los números a operar, un botón para enviar la operación, y un campo para mostrar el resultado. El estilo utiliza Material Design de Google.
+   - El código se puede encontrar en archivo HTML `calculadora.html`.
+
+2. Implementación del controlador que maneja los eventos de entrada y comunicación con el servicio backend (task_controller_input).
+   - Se utiliza JavaScript para crear un controlador que escucha el evento de clic en el botón de la calculadora y envía una petición al servidor backend con los dos números ingresados por el usuario.
+   - El código se puede encontrar en archivo JavaScript `calculadora.js`.
+
+3. Creación de la interfaz gráfica para permitir al usuario ingresar decimales (task_decimal_input).
+   - Se agregan teclas de puntos a los campos de texto y se crea un evento de clic que agregue el punto como caracter al campo de texto.
+   - El código se puede encontrar en archivo JavaScript `calculadora.js`.
+
+Este es el código del archivo HTML `calculadora.html`:
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="calculadora.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div id="calculadora">
+      <div class="display">
+        <input type="text" name="operando1" placeholder="Primer operando" readonly />
+        <input type="text" name="operador" placeholder="Operador" disabled readonly />
+        <input type="text" name="operando2" placeholder="Segundo operando" readonly />
+        =
+        <input type="text" name="resultado" readonly />
+      </div>
+      <div class="botones">
+        <button class="borrar" aria-label="Borrar">CE</button>
+        <button class="borrar" aria-label="Borrar último dígito">C</button>
+        <button aria-label="Seven">7</button>
+        <button aria-label="Eight">8</button>
+        <button aria-label="Nine">9</button>
+        <button class="operador" aria-label="Sumar">+</button>
+        <button aria-label="Four">4</button>
+        <button aria-label="Five">5</button>
+        <button aria-label="Six">6</button>
+        <button class="operador" aria-label="Restar">-</button>
+        <button aria-label="One">1</button>
+        <button aria-label="Two">2</button>
+        <button aria-label="Three">3</button>
+        <button class="operador" aria-label="Multiplicar">x</button>
+        <button aria-label="Zero">0</button>
+        <button aria-label="Punto">.</button>
+        <button class="igual" aria-label="Igual">=</button>
+      </div>
+    </div>
+    <script src="calculadora.js"></script>
+  </body>
+</html>
+```
+
+Este es el código del archivo JavaScript `calculadora.js`:
+```javascript
+const calculadora = document.querySelector('#calculadora');
+const display = document.querySelector('.display');
+const botones = document.querySelectorAll('.botones button');
+let operando1 = '';
+let operador = null;
+let operando2 = '';
+let resultado = null;
+
+for (let i = 0; i < botones.length; i++) {
+    botones[i].addEventListener('click', function () {
+        const valor = botones[i].getAttribute('aria-label');
+        if (valor === 'CE' || valor === 'C') {
+            operando1 = '';
+            operando2 = '';
+            resultado = null;
+        } else if (valor === '.') {
+            if (!operando1) {
+                operando1 += 0;
+            }
+            if (!operando2) {
+                operando2 += 0;
+            }
+            if (operando1.indexOf('.') === -1 && operando2.indexOf('.') === -1) {
+                operando1 += '.';
+            } else if (operando1.length > 9 || operando2.length > 9) {
+                return;
+            }
+        } else {
+            if (!operando1 && !valor.includes('.')) {
+                operando1 = valor;
+            } else if (!operando2 && !valor.includes('.')) {
+                operando2 = valor;
+            } else {
+                if (resultado) {
+                    operando1 = '';
+                    operador = valor;
+                    operando2 = '';
+                }
+                operando2 += valor;
+            }
+        }
+        actualizarDisplay();
+    });
+}
+
+function actualizarDisplay() {
+    const op1 = operando1 || '';
+    const op2 = operando2 || '';
+    const opr = operador || '';
+    const res = resultado || '';
+
+    display.children[0].value = op1;
+    if (opr) display.children[1].value = opr;
+    display.children[2].value = op2;
+    display.children[3].value = res;
+}
+
+calculadora.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const backendURL = 'http://localhost:3000/operacion/' + operador + '/' + parseFloat(operando1) + '/' + parseFloat(operando2);
+    fetch(backendURL)
+        .then((response) => response.json())
+        .then((data) => {
+            resultado = data.resultado;
+            actualizarDisplay();
+        })
+        .catch(() => console.log('Error en la comunicación con el servidor'));
+});
+```
