@@ -1,0 +1,61 @@
+  Vamos a trabajar con lo siguiente:
+
+**backlog inicial:**
+
+1. Visión de producto: Una calculadora básica sencilla y fácil de usar que permita a los usuarios realizar operaciones matemáticas básicas como suma, resta, multiplicación y división en un dispositivo móvil o web.
+
+**Sprints:**
+
+1. Sprint 1:
+   - Comenzar con la implementación de la interfaz gráfica para los botones de operaciones y el campo de entrada de números (frontendTasks).
+   - Crear un servicio backend que maneje las operaciones matemáticas solicitadas por el usuario y envíe el resultado al frontend (backendTasks).
+
+2. Sprint 2:
+   - Completar la implementación del controlador en el frontend para que pueda manejar los eventos de entrada y comunicarse con el servicio backend (frontendTasks).
+   - Agregar la validación de datos en el backend para asegurar la entrada correcta de los números (backendTasks).
+
+**historias de usuario:**
+
+1. Como usuario quiero poder agregar dos números para obtener el resultado de la suma, para facilitar operaciones rápidas.
+   - frontendTasks: Creación de botones "Sumar" y interfaz para ingresar los números (task_sum_frontend)
+   - backendTasks: Implementación del servicio que calcule la suma (task_sum_backend)
+
+2. Como usuario quiero poder restar dos números para obtener el resultado de la resta, para resolver problemas matemáticos sencillos.
+   - frontendTasks: Creación de botones "Restar" y interfaz para ingresar los números (task_resta_frontend)
+   - backendTasks: Implementación del servicio que calcule la resta (task_resta_backend)
+
+3. Como usuario quiero poder multiplicar dos números para obtener el resultado de la multiplicación, para realizar operaciones complejas en pocos pasos.
+   - frontendTasks: Creación de botones "Multiplicar" y interfaz para ingresar los números (task_multiplicacion_frontend)
+   - backendTasks: Implementación del servicio que calcule la multiplicación (task_multiplicacion_backend)
+
+4. Como usuario quiero poder dividir dos números para obtener el resultado de la división, para calcular tasas, porcentajes y otros cálculos complejos.
+   - frontendTasks: Creación de botones "Dividir" y interfaz para ingresar los números (task_division_frontend)
+   - backendTasks: Implementación del servicio que calcule la división (task_division_backend)
+
+**criterios de aceptación:**
+
+1. El resultado de las operaciones matemáticas es correcto.
+   - Definition of Done (DoD): Verificación del cálculo correcto en el backend y frontend para cada tipo de operación matemática (task_correcto_calculo_backend, task_correcto_calculo_frontend)
+
+2. La interfaz de usuario es intuitiva y fácil de utilizar.
+   - Definition of Done (DoD): Verificación del diseño y funcionalidad de la interfaz en el frontend (task_diseño_interfaz_frontend, task_funcionalidad_interfaz_frontend)
+
+3. El diseño es limpio y profesional.
+   - Definition of Done (DoD): Verificación del estilo visual y la organización de elementos en el frontend (task_estilo_visual_frontend, task_organizacion_elementos_frontend)
+
+4. El programa funciona sin fallas o errores en dispositivos móviles y web.
+   - Definition of Done (DoD): Pruebas de software para validar la funcionalidad en diversos entornos y dispositivos (task_pruebas_software)
+
+**requisitos no funcionales:**
+
+1. La calculadora debe tener un tiempo de respuesta rápido.
+   - Definition of Done (DoD): Medición del tiempo de cálculo y la optimización en el backend y frontend para cada tipo de operación matemática (task_tiempo_respuesta_backend, task_tiempo_respuesta_frontend)
+
+2. El programa debe ser seguro y proteger la privacidad de los usuarios.
+   - Definition of Done (DoD): Implementación de medidas de seguridad como encriptación para garantizar la integridad de datos y protección de información personal (task_seguridad_datos)
+
+3. La calculadora debe estar disponible en dispositivos móviles iOS y Android, así como web.
+   - Definition of Done (DoD): Implementación del código adaptable a diferentes plataformas y dispositivos (task_adaptabilidad_dispositivos)
+
+4. La calculadora debe soportar teclados virtuales para facilitar su uso en dispositivos móviles.
+   - Definition of Done (DoD): Implementación del diseño y funcionalidad necesaria para adaptarse a diferentes teclados virtuales en el frontend (task_teclado_virtual_frontend)
