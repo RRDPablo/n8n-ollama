@@ -1,0 +1,53 @@
+ Para los Sprint 1 y 2, crearé componentes de interfaz que responden a las tareas frontend especificadas:
+
+1. Creación de botones "Sumar", "Restar", "Multiplicar" y "Dividir" en HTML:
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+    <div id="operaciones">
+      <button onclick="sumar()">Sumar</button>
+      <button onclick="restar()">Restar</button>
+      <button onclick="multiplicar()">Multiplicar</button>
+      <button onclick="dividir()">Dividir</button>
+    </div>
+    <input type="number" id="numero1" />
+    <input type="number" id="numero2" />
+    <p id="resultado"></p>
+  </body>
+</html>
+```
+
+2. Creación de JavaScript para manejar eventos de entrada y comunicarse con el servicio backend:
+```javascript
+function sumar() {
+  const numero1 = parseFloat(document.getElementById("numero1").value);
+  const numero2 = parseFloat(document.getElementById("numero2").value);
+  fetch("/sum", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ numero1, numero2 })
+  }).then((response) => response.json()).then((data) => {
+    document.getElementById("resultado").textContent = data.result;
+  });
+}
+
+function restar() {
+  // ...
+}
+
+function multiplicar() {
+  // ...
+}
+
+function dividir() {
+  // ...
+}
+```
