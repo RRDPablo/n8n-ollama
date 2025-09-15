@@ -1,0 +1,18 @@
+ Visión de producto:
+Una aplicación móvil para realizar operaciones básicas matemáticas de suma, resta, multiplicación y división.
+
+Historias de usuario:
+- Como usuario quiero poder ingresar dos números en la pantalla para que la calculadora los sume correctamente.
+- Como usuario quiero poder ingresar dos números en la pantalla para que la calculadora los reste correctamente.
+- Como usuario quiero poder ingresar dos números en la pantalla para que la calculadora los multiplique correctamente.
+- Como usuario quiero poder ingresar dos números en la pantalla para que la calculadora los divida correctamente.
+
+Criterios de aceptación:
+- La calculadora debe mostrar el resultado correcto de las operaciones matemáticas solicitadas por el usuario.
+- La interfaz gráfica de la calculadora debe ser intuitiva y fácil de utilizar.
+- La calculadora debe permitir que el usuario ingrese decimales.
+
+Requisitos no funcionales:
+- La calculadora debe soportar pantallas de diferentes tamaños para dispositivos móviles.
+- La aplicación debe estar optimizada para consumo de energía y memoria.
+- La calculadora debe ser desarrollada utilizando los estándares de diseño material de Google.
