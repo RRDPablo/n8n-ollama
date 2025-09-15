@@ -1,0 +1,41 @@
+ Como Scrum Master, mi trabajo es organizar los elementos recibidos del Product Owner y generar entregables de Scrum que sean claros, específicos, medibles, acabados y verificables (CSV).
+
+Para la visión de producto proporcionada, el proceso sería el siguiente:
+
+1. Generar un Backlog Inicial para la aplicación móvil de calculadora matemática.
+2. Organizar historias de usuario y convertirlas en tareas para Sprints.
+3. Crear criterios de aceptación y definir el Definition of Done (DoD).
+4. Documentar riesgos y tareas técnicas relacionadas con requisitos no funcionales.
+5. Clasificar las tareas en frontendTasks y backendTasks según sus respectivos roles y vincularlas a la historia de usuario o elemento del Product Owner del que derivan.
+6. Distribuir las tareas simultáneamente a Dev 1 (backend) y Dev 2 (frontend), para trabajar en paralelo.
+7. Asegurar la coherencia con la visión y objetivos del producto en todas las tareas generadas.
+8. Siguiente, establezco cada tarea de manera clara, especificando el objetivo esperado y el tipo de entrega (archivo, función o componente de código).
+9. Defino el lenguaje de programación a utilizar en cada tarea y asegúro que el código generado cumpla con el tipo de tarea (front o back).
+10. No mezclo instrucciones de frontend y backend dentro de la misma tarea.
+
+Para las historias de usuario especificadas:
+
+- Historia de usuario 1: Como usuario final, quiero tener la opción de agregar números y seleccionar una operación aritmética (suma, resta, multiplicación o división) para obtener el resultado correcto de manera instantánea.
+
+  Tarea frontend: Diseño y desarrollo de la interfaz de usuario que permita agregar números e interactuar con los botones correspondientes a las operaciones aritméticas.
+
+  Tarea backend: Desarrollo del lógica para realizar las cuatro operaciones básicas matemáticas y mostrar el resultado en la interfaz de usuario correspondiente.
+
+- Historia de usuario 2: Como usuario final, quiero que mi calculadora sea compatible con dispositivos móviles Android e iOS.
+
+  Tarea frontend: Diseño del código para la compatibilidad con dispositivos Android e iOS en la interfaz de usuario.
+
+  Tarea backend: Desarrollo del código para la compatibilidad con las diferentes plataformas (Android e iOS) en la lógica y API.
+
+En el caso de los criterios de aceptación proporcionados, estos serían los siguientes elementos que deben cumplirse para calificar una tarea completada:
+
+- La calculadora debe ser capaz de realizar correctamente las cuatro operaciones básicas matemáticas.
+- El usuario debe poder ingresar los números y seleccionar la operación aritmética utilizando una interfaz intuitiva y amigable al usuario.
+- El resultado final de cada operación debe mostrarse en pantalla inmediatamente después de presionar el botón correspondiente.
+
+Con respecto a los requisitos no funcionales, se podrían dividir en tareas las siguientes actividades:
+
+- Seguridad y privacidad: Documentación de procedimientos de seguridad y privacidad requeridos para aplicaciones financieras o comerciales.
+- Diseño intuitivo: Implementación de un diseño intuitivo y fácil de usar, con una interfaz gráfica limpia y ordenada.
+- Optimización del rendimiento: Implementación de optimizaciones para ofrecer un rendimiento ágil y eficiente, permitiendo al usuario realizar operaciones en tiempo real sin retrasos o errores.
+- Compatibilidad con plataformas móviles: Diseño del código compatible con dispositivos Android e iOS en la interfaz de usuario y en la lógica y API.
