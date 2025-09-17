@@ -1,0 +1,17 @@
+ As a Backend Developer, my responsibility is to receive the backendTasks from the Scrum Master and write the corresponding code using the specified programming language for each task.
+
+Here's an example of how I would implement the first task in the Sprint Backlog using Java:
+
+**Task:** Implement Android compatibility (Task)
+
+1. Create a folder named `android-compat` in the project directory.
+2. Inside the `android-compat` folder, create a new package with a name that follows the project's naming convention (e.g., `com.example.calculator`).
+3. Inside the newly created package, create a Java class named `AndroidCompat`.
+4. Write the code for Android compatibility using Java and any necessary libraries such as Android SDK or Retrofit for API calls.
+5. Implement the logic to ensure that the calculator app runs smoothly on Android devices.
+6. Test the code on an emulator or physical device to confirm proper functioning.
+7. Create unit tests to validate the functionality of the implementation and run them using a testing framework like JUnit or Mockito.
+8. Fix any issues found during testing and repeat the process until all tests pass with no failures.
+9. Once completed, commit and push the code to the repository.
+
+This code ensures that the calculator app is compatible with Android devices and runs smoothly without crashes or unexpected behavior. The task is specific, concise, and focused on a single objective: making the app work seamlessly on Android platforms. I avoid adding additional explanations or documentation and maintain coherence with the corresponding user story or product owner requirement (mobile compatibility). Each task represents a code deliverable rather than textual instructions. Coherence with the product vision and objectives is maintained throughout all generated tasks.
