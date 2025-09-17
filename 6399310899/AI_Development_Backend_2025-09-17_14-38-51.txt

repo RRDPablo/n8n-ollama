@@ -1,0 +1,7 @@
+ Como backend developer, recibí las siguientes tareas para realizar el desarrollo de la aplicación móvil:
+
+1. Implementación de la lógica para realizar sumas, restas, multiplicaciones y divisiones, con resultados precisos y respuestas rápidas (en PHP).
+2. Creación del historial de cálculos recientes que se almacene en una base de datos (en MySQL).
+3. Implementación de medidas de seguridad para proteger la privacidad de los datos y el historial de los cálculos recientes de los usuarios (usando una combinación de encriptación AES-256 y tokens de sesión PHP).
+4. Integración de API de Google Maps o equivalentes para soportar la localización geográfica de los usuarios (en PHP, utilizando las APIs de Google Maps).
+5. Implementación de una interfaz de programación pública (API) para que los desarrolladores puedan integrar las operaciones aritméticas básicas en sus aplicaciones y servicios (usando el framework Restful PHP).
