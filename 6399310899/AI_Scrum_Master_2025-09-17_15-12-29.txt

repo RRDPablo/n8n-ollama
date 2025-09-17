@@ -1,0 +1,45 @@
+ Visión de producto: Una aplicación móvil simple y eficiente para la ejecución de operaciones aritméticas elementales.
+
+**Sprint 1**
+
+Historias de usuario:
+1. Como usuario, deseo poder realizar sumas, restas, multiplicaciones y divisiones mediante una interfaz intuitiva y práctica, obtener resultados precisos y resolver tareas cotidianas rápidamente (Product Owner: Visión de producto)
+   - frontendTasks:
+     a. Diseño y desarrollo de la interfaz de usuario para realizar operaciones aritméticas básicas (HTML/CSS/JavaScript).
+     b. Implementación de funciones para realizar sumas, restas, multiplicaciones y divisiones (JavaScript).
+   - backendTasks:
+     a. Codificación de lógica para las operaciones aritméticas básicas (PHP).
+     b. Validación de datos y seguridad en el procesamiento de operaciones (PHP).
+
+**Sprint 2**
+
+Historias de usuario:
+1. Como usuario, quiero ver un historial de mis cálculos recientes para que pueda reutilizar valores anteriores en otros cálculos (Product Owner: Historia de usuario 2)
+   - frontendTasks:
+     a. Diseño y desarrollo del historial de cálculos recientes (HTML/CSS/JavaScript).
+     b. Implementación de funciones para recuperar y visualizar el historial de cálculos recientes (PHP/MySQL).
+   - backendTasks:
+     a. Codificación de lógica para almacenar el historial de cálculos recientes en la base de datos (MySQL).
+     b. Implementación de funciones para consultar y recuperar el historial de cálculos recientes (PHP).
+
+**Sprint 3**
+
+Historias de usuario:
+1. Como usuario, deseo poder personalizar la apariencia y funcionalidad de la aplicación con diferentes opciones y preferencias (Product Owner: Historia de usuario 3)
+   - frontendTasks:
+     a. Diseño y desarrollo de las opciones de personalización para la interfaz de usuario (HTML/CSS/JavaScript).
+     b. Implementación de funciones para guardar las preferencias del usuario (JavaScript).
+   - backendTasks:
+     a. Codificación de lógica para almacenar y recuperar preferencias del usuario (MySQL).
+     b. Integración de las preferencias del usuario en la interfaz de usuario (HTML/CSS/JavaScript).
+
+**Sprint 4**
+
+Historias de usuario:
+1. Como usuario, quiero compartir resultados y operaciones recientes en redes sociales o mensajería instantánea (Product Owner: Historia de usuario 4)
+   - frontendTasks:
+     a. Integración con API de redes sociales y mensajería instantánea (HTML/CSS/JavaScript).
+     b. Diseño de interfaz para compartir resultados y operaciones (HTML/CSS/JavaScript).
+   - backendTasks:
+     a. Codificación de lógica para compartir resultados y operaciones con API de redes sociales y mensajería instantánea (PHP).
+     b. Integración de las funciones de compartición en la interfaz de usuario (HTML/CSS/JavaScript).
