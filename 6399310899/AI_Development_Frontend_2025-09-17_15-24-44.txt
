@@ -1,0 +1,40 @@
+ Como desarrollador frontend, mis tareas consisten en:
+
+**Sprint 1 - frontendTasks:**
+a. Diseño y desarrollo de la interfaz de usuario para realizar operaciones aritméticas básicas (HTML/CSS/JavaScript)
+   - crear HTML para los campos de entrada, botones y resultados de la calculadora
+   - estilizar CSS el diseño de la calculadora
+   - agregar JavaScript para capturar eventos de clic y realizar las operaciones matemáticas
+
+**Sprint 2 - frontendTasks:**
+a. Diseño y desarrollo del historial de cálculos recientes (HTML/CSS/JavaScript)
+   - crear HTML para mostrar los cálculos en el historial
+   - agregar JavaScript para recuperar y visualizar el historial desde el servidor backend
+
+b. Implementación de funciones para realizar las operaciones aritméticas (PHP/MySQL)
+   - realizar sumas, restas, multiplicaciones y divisiones y almacenarlos en la base de datos
+
+**Sprint 3 - frontendTasks:**
+a. Diseño y desarrollo de las opciones de personalización para la interfaz de usuario (HTML/CSS/JavaScript)
+   - agregar opciones de configuración del estilo y funcionalidad de la calculadora
+   - almacenar las preferencias del usuario en el navegador o en una cookie
+
+b. Implementación de funciones para guardar las preferencias del usuario (JavaScript)
+   - agregar JavaScript para guardar las preferencias en el navegador o en una cookie
+
+**Sprint 4 - frontendTasks:**
+a. Integración con API de redes sociales y mensajería instantánea (HTML/CSS/JavaScript)
+   - agregar botones o opciones para compartir resultados y operaciones en las redes sociales o mensajería instantánea
+   - configurar las APIs de las redes sociales o mensajería instantánea con token o claves de API
+
+b. Diseño de interfaz para compartir resultados y operaciones (HTML/CSS/JavaScript)
+   - crear HTML para mostrar el resultado o la operación que se quiere compartir en las redes sociales o mensajería instantánea
+
+**Sprint X - frontendTasks:**
+a. Optimización de código y mejoras visuales (HTML/CSS/JavaScript)
+   - optimizar el código para aumentar la velocidad de carga y reducir las interrupciones
+   - agregar animaciones o efectos visuales a la calculadora para mejorar la experiencia del usuario
+
+b. Pruebas y depuración (HTML/CSS/JavaScript)
+   - realizar pruebas unitarias y de integración con herramientas como Jest o Mocha
+   - corregir errores y mejorar la calidad del código según los resultados de las pruebas
