@@ -1,0 +1,9 @@
+ Como frontend developer, mi tarea consiste en realizar el desarrollo de la interfaz de usuario para la aplicación móvil de cálculo, siguiendo las instrucciones proporcionadas por el Scrum Master:
+
+1. Creación del diseño visual de la aplicación, incluyendo el layout, colores y tipografía (HTML/CSS)
+2. Implementación de las características intuitivas y prácticas de la interfaz, como botones para realizar sumas, restas, multiplicaciones y divisiones (HTML/JavaScript)
+3. Implementación de un historial que muestre los últimos 10 cálculos realizados por el usuario, con la posibilidad de reutilizar valores anteriores en otros cálculos (HTML/JavaScript)
+4. Implementación de un menú de preferencias donde el usuario pueda personalizar la apariencia y funcionalidad de la aplicación, como cambiar el tema, tamaño del texto o habilitar/deshabilitar características (HTML/JavaScript)
+5. Integración de APIs de las redes sociales y otros servicios de mensajería instantánea, como WhatsApp, Facebook Messenger, Twitter, etc., para que el usuario pueda compartir sus resultados con otras personas (HTML/JavaScript).
+
+En cada tarea, se utilizará el lenguaje de programación especificado, y se garantiza la coherencia con la historia de usuario o requisito del Product Owner del que proviene. Las entregas serán código funcional, no explicaciones ni documentación adicional.
