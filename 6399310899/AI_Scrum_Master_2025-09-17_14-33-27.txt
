@@ -1,0 +1,48 @@
+ Como Scrum Master, seguiré estos pasos para organizar la información y generar entregables de Scrum según las instrucciones proporcionadas:
+
+Visión de producto: La aplicación móvil eficiente para la ejecución de operaciones aritméticas elementales.
+- Genero un backlog inicial con esta visión de producto como epic.
+
+Historias de usuario:
+1. Como usuario, deseo poder realizar sumas, restas, multiplicaciones y divisiones mediante una interfaz intuitiva y práctica, obtener resultados precisos y resolver tareas cotidianas rápidamente.
+2. Como usuario, quiero ver un historial de mis cálculos recientes para que pueda reutilizar valores anteriores en otros cálculos.
+3. Como usuario, deseo poder personalizar la apariencia y funcionalidad de la aplicación con diferentes opciones y preferencias.
+4. Como usuario, quiero compartir resultados y operaciones recientes en redes sociales o mensajería instantánea.
+- Organizo las historias de usuario en un Sprint para ser trabajadas por el equipo desarrollador.
+
+Criterios de aceptación:
+1. La interfaz de la aplicación debe proporcionar un flujo de trabajo intuitivo al realizar operaciones aritméticas básicas, con resultados precisos y respuestas rápidas.
+2. El historial de cálculos recientes debe estar disponible para su reutilización en otros cálculos.
+3. La personalización de la aplicación debe permitir al usuario elegir entre diferentes opciones y preferencias.
+4. La aplicación debe soportar la compartición de resultados y operaciones recientes en redes sociales o mensajería instantánea.
+- Convierto los criterios de aceptación en Definition of Done para garantizar que el equipo desarrollador tenga claro lo que es necesario cumplir para completar las tareas.
+
+Requisitos no funcionales:
+1. Velocidad: La aplicación debe responder a las operaciones aritméticas básicas en un tiempo inferior a 2 segundos, garantizando una experiencia fluida para los usuarios.
+2. Seguridad: La aplicación debe proteger la privacidad de los datos y el historial de los cálculos recientes de los usuarios mediante medidas de seguridad adecuadas.
+3. Compatibilidad: La aplicación debe ser compatible con dispositivos móviles con sistemas operativos Android e iOS.
+4. Interoperabilidad: La aplicación debe proporcionar una interfaz de programación pública (API) para que los desarrolladores puedan integrar las operaciones aritméticas básicas en sus aplicaciones y servicios.
+5. Localización: La aplicación debe soportar la localización geográfica de los usuarios mediante la integración de API de Google Maps o equivalentes.
+- Documento riesgos y tareas técnicas relacionadas con los requisitos no funcionales para que el equipo desarrollador tenga claro cómo abordar estos aspectos en el proceso de desarrollo.
+
+Para cada historia de usuario, clasifico las tareas en dos listas: frontend y backend, de la siguiente manera:
+
+frontendTasks:
+1. Creación del diseño visual de la aplicación, incluyendo el layout, colores y tipografía.
+2. Implementación de las características intuitivas y prácticas de la interfaz, como botones para realizar sumas, restas, multiplicaciones y divisiones.
+3. Implementación de un historial que muestre los últimos 10 cálculos realizados por el usuario, con la posibilidad de reutilizar valores anteriores en otros cálculos.
+4. Implementación de un menú de preferencias donde el usuario pueda personalizar la apariencia y funcionalidad de la aplicación, como cambiar el tema, tamaño del texto o habilitar/deshabilitar características.
+5. Integración de APIs de las redes sociales y otros servicios de mensajería instantánea, como WhatsApp, Facebook Messenger, Twitter, etc., para que el usuario pueda compartir sus resultados con otras personas.
+
+backendTasks:
+1. Implementación de la lógica para realizar sumas, restas, multiplicaciones y divisiones, con resultados precisos y respuestas rápidas.
+2. Creación del historial de cálculos recientes que se almacene en una base de datos.
+3. Implementación de medidas de seguridad para proteger la privacidad de los datos y el historial de los cálculos recientes de los usuarios.
+4. Integración de API de Google Maps o equivalentes para soportar la localización geográfica de los usuarios.
+5. Implementación de una interfaz de programación pública (API) para que los desarrolladores puedan integrar las operaciones aritméticas básicas en sus aplicaciones y servicios.
+
+Para cada tarea, define el lenguaje de programación que debe utilizarse y asegúrate de que el código generado cumpla con el tipo de tarea (front o back). No mezcles instrucciones de frontend y backend dentro de la misma tarea.
+
+Distribución paralela: Envío ambas listas simultáneamente a Dev 1 (backend) y Dev 2 (frontend), para que trabajen en paralelo con la misma información. No resuelvas las tareas; solo prepara, organiza y asigna la información para los Dev Teams.
+
+Mantén un lenguaje profesional y claro. Cada tarea debe indicar de qué historia de usuario o requisito del Product Owner proviene. Las tareas deben ser entregables de código, no texto explicativo. Garantiza coherencia con la visión y objetivos del producto en todas las tareas generadas.
