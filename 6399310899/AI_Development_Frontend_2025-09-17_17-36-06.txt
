@@ -1,0 +1,17 @@
+ As a Frontend Developer, my responsibility is to receive the frontendTasks from the Scrum Master and write the corresponding code using the specified programming language for each task.
+
+Here's an example of how I would implement the first task in the Sprint Backlog using HTML, CSS, and JavaScript:
+
+**Task:** Number input fields (Task)
+
+1. Create a new folder named `number-input-fields` within the project directory.
+2. Inside the `number-input-fields` folder, create an HTML file with a name that follows the project's naming convention (e.g., `calculator.html`).
+3. In the HTML file, use semantic tags to structure the input fields for numbers and ensure they have proper labels, placeholders, and attributes such as type="number" for numeric inputs.
+4. Style the input fields using CSS to make them visually appealing and adaptable to various screen sizes, ensuring compatibility with both desktop and mobile devices.
+5. Add JavaScript code to create event listeners on each number input field for user interaction like keypress, focus, and blur events.
+6. Implement logic within the JavaScript code to validate user inputs and ensure that only numbers are accepted in the input fields.
+7. Test the HTML, CSS, and JavaScript implementation using different browsers and devices to confirm proper functioning and responsiveness.
+8. Refactor the code as necessary for better performance and maintainability.
+9. Once completed, commit and push the code to the repository.
+
+This code creates number input fields that allow users to enter numbers easily in a visually appealing way while maintaining compatibility with various devices. The task is specific, concise, and focused on a single objective: creating number input fields for the calculator app. I avoid adding additional explanations or documentation and maintain coherence with the corresponding user story or product owner requirement (number input fields). Each task represents a code deliverable rather than textual instructions. Coherence with the product vision and objectives is maintained throughout all generated tasks.
