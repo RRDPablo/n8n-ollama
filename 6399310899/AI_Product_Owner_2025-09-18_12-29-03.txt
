@@ -1,0 +1,20 @@
+ Visión de producto:
+Una calculadora básica y sencilla para realizar operaciones matemáticas elementales. Esta herramienta estará diseñada para ofrecer una interfaz intuitiva y fácil de usar, facilitando las sumas, restas, multiplicaciones y divisiones a través de un solo dispositivo.
+
+Historias de usuario:
+1. Como usuario final quiero poder ingresar números en la interfaz para realizar operaciones matemáticas.
+2. Como usuario final quiero que el resultado de las operaciones sea mostrado correctamente y de forma inmediata.
+3. Como usuario final quiero que pueda guardar o restaurar los valores previamente ingresados en la calculadora.
+4. Como usuario final quiero que mi privacidad esté garantizada al no tener datos personales registrados en la aplicación.
+
+Criterios de aceptación:
+1. El resultado de las operaciones matemáticas debe ser correcto y mostrarse inmediatamente.
+2. La interfaz de usuario debe ser intuitiva y fácil de navegar.
+3. Los valores ingresados en la calculadora deben poder ser guardados o restaurados según sea deseado por el usuario.
+4. En caso de errores, estos deben ser manejados apropiadamente para mantener la integridad y confiabilidad de la aplicación.
+
+Requisitos no funcionales:
+1. La aplicación debe soportar diferentes tamaños de pantalla en dispositivos móviles y ordenadores.
+2. La calculadora debe ser rápida y eficiente al procesar las operaciones matemáticas ingresadas por el usuario.
+3. El diseño de la interfaz de usuario debe cumplir con estándares de accesibilidad para que pueda utilizarse por personas con diferentes capacidades y necesidades.
+4. La aplicación debe estar disponible en línea y offline sin requerir una conexión permanente a internet.
