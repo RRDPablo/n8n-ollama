@@ -1,0 +1,46 @@
+ **Backend Tasks:**
+
+1. Implementar una API REST que permita hacer las operaciones básicas aritméticas (sumar, restar, multiplicar y dividir).
+- Código de ejemplo:
+```javascript
+const express = require('express');
+const app = express();
+app.use(express.json());
+
+// Ruta para la operación suma
+app.get('/sum/:num1/:num2', (req, res) => {
+  const num1 = parseFloat(req.params.num1);
+  const num2 = parseFloat(req.params.num2);
+  const result = num1 + num2;
+  res.json({result});
+});
+
+// ... Rutas para las operaciones resta, multiplicación y división
+
+app.listen(3000, () => console.log('App running on port 3000'));
+```
+
+2. Implementar un sistema que valide las operaciones aritméticas y devuelva el resultado correcto después de cada operación.
+- Código de ejemplo:
+```javascript
+// Función para validar y realizar la operación suma
+const sum = (num1, num2) => {
+  const result = parseFloat(num1) + parseFloat(num2);
+  if (!isNaN(result)) return result;
+};
+
+// ... Funciones para las operaciones resta, multiplicación y división
+```
+
+3. Implementar un sistema de protección para los datos personales de los usuarios en caso de pérdida o robo del dispositivo.
+- Código de ejemplo:
+```javascript
+const bcrypt = require('bcryptjs');
+// ... Función para hashear las contraseñas y proteger la información del usuario.
+```
+
+4. Implementar un sistema de acceso a través de una clave maestra, para proteger el histórico de las últimas operaciones realizadas.
+- Código de ejemplo:
+```javascript
+// ... Función que verifica si la clave es correcta y protege el historial de las últimas operaciones.
+```
