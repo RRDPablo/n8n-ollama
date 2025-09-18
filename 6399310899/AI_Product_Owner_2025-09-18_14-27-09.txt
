@@ -1,0 +1,24 @@
+ Visión de producto:
+Una aplicación móvil de cálculo básico para realizar operaciones matemáticas simples en un entorno intuitivo e intuitivo. Esta herramienta es ideal para usuarios que buscan resolver ecuaciones, convertir monedas, calcular índices y realizar otras funciones de cálculo diarias sin la necesidad de un software complejo o una calculadora física.
+
+Historias de usuario:
+1. Como usuario final quiero poder agregar dos números para resolver sumas.
+2. Como usuario final, quiero multiplicar dos números para calcular productos.
+3. Como usuario final, quiero dividir dos números para obtener resultados racionales.
+4. Como usuario final, quiero restar dos números para encontrar diferencias.
+5. Como usuario final, quiero tener la opción de calcular el porcentaje de un número.
+6. Como usuario final, quiero poder convertir monedas entre dólares, euros y yenes.
+
+Criterios de aceptación:
+1. Los resultados del cálculo sean precisos y corroborables con herramientas externas.
+2. La interfaz sea intuitiva y fácil de usar, incluso para usuarios menos técnicos.
+3. La aplicación pueda guardar los últimos cálculos realizados.
+4. La aplicación se adapte correctamente al tamaño de la pantalla del dispositivo móvil.
+5. La aplicación sea rápida y eficiente, sin faltas o desempeños lentos.
+
+Requisitos no funcionales:
+1. Compatibilidad con sistemas operativos móviles Android e iOS.
+2. Diseño de alta calidad para maximizar la experiencia del usuario.
+3. La aplicación sea segura, protegiendo los datos personales de los usuarios.
+4. La aplicación se puede actualizar automáticamente en dispositivos móviles con una conexión a internet activa.
+5. Se incluye soporte para idiomas comunes y un traductor integrado para mejorar la accesibilidad internacional.
