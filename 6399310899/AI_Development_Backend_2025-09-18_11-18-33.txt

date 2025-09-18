@@ -1,0 +1,33 @@
+ A continuación, se muestra el código correspondiente a las tareas de backend para la calculadora básica. Cada tarea es un archivo `.js` con nombre específico:
+
+1. Crear un sistema de manejo de números y operadores. (Lenguaje: JavaScript)
+   - NumbersOperations.js
+
+```javascript
+function add(a, b) {
+  return a + b;
+}
+
+function subtract(a, b) {
+  return a - b;
+}
+
+function multiply(a, b) {
+  return a * b;
+}
+
+function divide(a, b) {
+  if (b === 0) throw new Error("Division by zero is not allowed.");
+  return a / b;
+}
+```
+
+2. Implementar una política de privacidad para la aplicación. (Lenguaje: JavaScript)
+   - PrivacyPolicy.js
+
+```javascript
+function getPrivacyPolicy() {
+  const policy = `This application does not store or collect any personal data from its users.`;
+  return policy;
+}
+```
