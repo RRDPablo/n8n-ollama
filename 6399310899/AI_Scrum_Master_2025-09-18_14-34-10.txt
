@@ -1,0 +1,65 @@
+ Como Scrum Master, procederé de la siguiente manera:
+
+**Visión de producto:** Creará un Backlog inicial basado en la descripción de la aplicación móvil de cálculo básico.
+
+*Backlog Inicial:*
+1. Función de Cálculo (frontend/function)
+    - Objetivo: Implementar una interfaz de usuario que permita realizar operaciones matemáticas simples
+    - Lenguaje: Swift (iOS), Java (Android)
+2. Conversor de Monedas (frontend/function)
+    - Objetivo: Agregar una opción para convertir entre dólares, euros y yenes
+    - Lenguaje: Swift (iOS), Java (Android)
+3. Almacenamiento de Cálculos (backend/componente de código)
+    - Objetivo: Implementar un sistema que guarde los últimos cálculos realizados
+    - Lenguaje: Realm o CoreData (iOS), Room (Android)
+4. Diseño de Interfaz de Usuario (frontend/archivos)
+    - Objetivo: Crear una interfaz intuitiva y fácil de usar
+    - Lenguaje: Sketch, Figma
+5. Optimización de Desempeño (backend/tarea técnica)
+    - Objetivo: Asegurar que la aplicación sea rápida y eficiente
+    - Lenguaje: Swift (iOS), Java (Android)
+6. Compatibilidad con SOs móviles (backend/documento técnico)
+    - Objetivo: Garantizar que la aplicación sea compatible con sistemas operativos móviles Android e iOS
+    - Lenguaje: Informe de compatibilidad
+7. Seguridad de Datos (backend/tarea técnica)
+    - Objetivo: Proteger los datos personales de los usuarios
+    - Lenguaje: Swift (iOS), Java (Android)
+8. Actualización Automática (backend/componente de código)
+    - Objetivo: Permitir que la aplicación se actualice automáticamente en dispositivos móviles con una conexión a internet activa
+    - Lenguaje: Swift (iOS), Java (Android)
+9. Soporte Multilingüe e Integrado Traductor (frontend/componentes de código)
+    - Objetivo: Incluir soporte para idiomas comunes y un traductor integrado para mejorar la accesibilidad internacional
+    - Lenguaje: Swift (iOS), Java (Android)
+
+**Historias de usuario:** Organizará las historias de usuario en entregables de Scrum para cada Sprint.
+
+*Sprint 1:*
+1. Historia de Usuario 1: Como Dev Frontend, quiero implementar la interfaz de suma (frontendTasks)
+2. Historia de Usuario 2: Como Dev Backend, quiero crear el almacenamiento para los últimos cálculos realizados (backendTasks)
+3. Historia de Usuario 3: Como Dev Frontend, quiero implementar la interfaz de conversión de monedas (frontendTasks)
+
+*Sprint 2:*
+1. Historia de Usuario 4: Como Dev Backend, quiero crear el almacenamiento para los últimos cálculos realizados por multiplicación (backendTasks)
+2. Historia de Usuario 5: Como Dev Frontend, quiero implementar la interfaz de división (frontendTasks)
+3. Historia de Usuario 6: Como Dev Backend, quiero crear el almacenamiento para los últimos cálculos realizados por resta (backendTasks)
+
+*Sprint 3:*
+1. Historia de Usuario 7: Como Dev Frontend, quiero implementar la interfaz para calcular porcentajes (frontendTasks)
+2. Historia de Usuario 8: Como Dev Backend, quiero crear el almacenamiento para los últimos cálculos realizados por resta (backendTasks)
+3. Historia de Usuario 9: Como Dev Frontend y Dev Backend, quiero optimizar la aplicación para aumentar su velocidad y eficiencia (frontendTasks/backendTasks)
+
+**Criterios de Aceptación:** Convierta los criterios de aceptación en Definition of Done.
+
+1. Los resultados del cálculo sean precisos y corroborables con herramientas externas (Definition of Done: Los resultados del cálculo coinciden con los calculados por herramientas externas)
+2. La interfaz sea intuitiva y fácil de usar, incluso para usuarios menos técnicos (Definition of Done: La interfaz es intuitiva y fácil de usar)
+3. La aplicación pueda guardar los últimos cálculos realizados (Definition of Done: Los últimos cálculos realizados están almacenados en la aplicación)
+4. La aplicación se adapte correctamente al tamaño de la pantalla del dispositivo móvil (Definition of Done: La aplicación se adapta correctamente al tamaño de la pantalla del dispositivo móvil)
+5. La aplicación sea rápida y eficiente, sin faltas o desempeños lentos (Definition of Done: La aplicación es rápida y eficiente, sin faltas o desempeños lentos)
+
+**Requisitos no funcionales:** Documentará riesgos y tareas técnicas relacionadas con estos requisitos.
+
+1. Compatibilidad con sistemas operativos móviles Android e iOS (Documento técnico: Plan de compatibilidad con SOs móviles)
+2. Diseño de alta calidad para maximizar la experiencia del usuario (Diseño: Crear un diseño intuitivo y fácil de usar que se ajuste al estilo de cada sistema operativo móvil)
+3. La aplicación sea segura, protegiendo los datos personales de los usuarios (Seguridad: Asegurar la privacidad de los datos de los usuarios mediante encriptación y protección contra ataques cibernéticos)
+4. La aplicación se puede actualizar automáticamente en dispositivos móviles con una conexión a internet activa (Actualización Automática: Implementar un sistema de actualización que funcione tanto en Android como en iOS)
+5. Se incluye soporte para idiomas comunes y un traductor integrado para mejorar la accesibilidad internacional (Soporte Multilingüe: Agregar soporte a varios idiomas y un traductor que funcione en la aplicación)
