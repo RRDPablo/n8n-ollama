@@ -1,0 +1,77 @@
+  En el caso de ser desarrollador frontend, estoy asegurándome de cumplir con las reglas estrictas especificadas:
+
+### Historia de usuario #1 (frontendTasks)
+- Crear archivo "calculadora.html" para implementar la interfaz de entrada de datos.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Calculadora</h1>
+  <form id="calculationForm">
+    <input type="number" name="first_number" placeholder="Número 1">
+    <input type="number" name="second_number" placeholder="Número 2">
+    <select name="operation">
+      <option value="sum">Sumar</option>
+      <option value="subtract">Restar</option>
+      <option value="multiply">Multiplicar</option>
+      <option value="divide">Dividir</option>
+    </select>
+    <button type="submit">Calcular</button>
+  </form>
+  <p id="result"></p>
+  <script src="calculadora.js"></script>
+</body>
+</html>
+```
+
+### Historia de usuario #2 (backendTasks)
+- Crear archivo "app.js" para proporcionar la API REST utilizando Node.js y Express.
+
+```javascript
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+
+// ...
+
+app.use(bodyParser.json());
+
+app.post('/calculate', function (req, res) {
+  // Procesar el valor de entrada en la operación solicitada y devolver resultado.
+});
+
+// ...
+```
+
+### Historia de usuario #3 (frontendTasks)
+- Crear archivo "calculadora.js" para implementar la función JavaScript que actualiza el estado del sistema para guardar y restaurar valores.
+
+```javascript
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.querySelector('#calculationForm');
+  const resultParagraph = document.querySelector('#result');
+
+  // ...
+
+  // Guardar el valor actual almacenado en el localStorage y refrescar la página para actualizar el estado del sistema.
+});
+```
+
+### Historia de usuario #4 (frontendTasks)
+- Crear archivo "calculadora.js" para implementar medidas de seguridad y protección de datos en JavaScript.
+
+```javascript
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.querySelector('#calculationForm');
+
+  // ...
+
+  // Evitar almacenamiento de información personal.
+});
+```
