@@ -1,0 +1,20 @@
+ Visión de producto:
+Una calculadora básica y sencilla que ofrece funciones aritméticas fundamentales para facilitar la vida a los usuarios en sus operaciones matemáticas diarias.
+
+Historias de usuario:
+1. Como usuario, quiero realizar sumas para resolver problemas cotidianos, como calcular el costo total de una compra.
+2. Como usuario, quiero restar números para conocer la diferencia entre dos cantidades.
+3. Como usuario, quiero multiplicar números para calcular áreas o volúmenes.
+4. Como usuario, quiero dividir números para resolver problemas de proporciones y relaciones.
+
+Criterios de aceptación:
+1. La calculadora debe mostrar el resultado correcto después de cada operación.
+2. Los botones de la calculadora deben ser intuitivos y fáciles de encontrar.
+3. La calculadora debe mantener una historia de las últimas operaciones realizadas para facilitar la revisión del historial.
+4. El diseño de la calculadora debe ser moderno y atractivo, adaptándose a diferentes tamaños de pantalla.
+
+Requisitos no funcionales:
+1. La calculadora debe soportar una gran variedad de dispositivos, incluyendo móviles, tablets y ordenadores.
+2. El diseño de la calculadora debe ser accesible para personas con discapacidades visuales.
+3. La calculadora debe tener un rendimiento óptimo sin requerir mucha potencia procesadora del dispositivo.
+4. La aplicación debe ser segura, protegiendo los datos personales de los usuarios en caso de pérdida o robo del dispositivo.
