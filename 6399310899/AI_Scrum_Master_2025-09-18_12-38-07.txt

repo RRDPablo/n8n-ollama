@@ -1,0 +1,59 @@
+ Backlog Inicial
+-----------------
+
+### Historia de usuario #1: Como usuario final quiero poder ingresar números en la interfaz para realizar operaciones matemáticas.
+
+#### frontendTasks:
+- Implementar una interfaz de entrada de datos (HTML/CSS) - Objectivo: Crear un sistema para permitir al usuario ingresar valores en la calculadora
+  - Tipo de entrega: Archivo HTML
+
+#### backendTasks:
+- Proporcionar API REST para recibir los valores de entrada (Node.js/Express) - Objectivo: Recibir los valores de entrada desde el frontend y enviarlos al procesamiento de datos
+  - Tipo de entrega: Librería Node.js
+
+### Historia de usuario #2: Como usuario final quiero que el resultado de las operaciones sea mostrado correctamente y de forma inmediata.
+
+#### backendTasks:
+- Proporcionar API REST para procesar los valores ingresados (Node.js/Express) - Objectivo: Recibir los valores de entrada, calcular el resultado correspondiente según la operación solicitada y devolverlo al frontend
+  - Tipo de entrega: Librería Node.js
+
+#### frontendTasks:
+- Procesar las respuestas de la API REST (JavaScript) - Objectivo: Recibir el resultado del procesamiento de datos y mostrarlo en la interfaz de usuario de manera adecuada
+  - Tipo de entrega: Función JavaScript que actualiza el DOM del HTML
+
+### Historia de usuario #3: Como usuario final quiero que pueda guardar o restaurar los valores previamente ingresados en la calculadora.
+
+#### frontendTasks:
+- Implementar un sistema para guardar y restaurar valores (JavaScript) - Objectivo: Permitir al usuario guardar y restaurar los valores ingresados anteriormente en la calculadora
+  - Tipo de entrega: Función JavaScript que actualiza el estado del sistema para guardar y restaurar valores
+
+#### backendTasks:
+- Proporcionar API REST para almacenar los valores ingresados (Node.js/Express) - Objectivo: Almacenar los valores ingresados por el usuario para su posterior recuperación en caso de necesidad
+  - Tipo de entrega: Librería Node.js
+- Proporcionar API REST para consultar los valores almacenados (Node.js/Express) - Objectivo: Permitir al usuario consultar los valores ingresados anteriormente en la calculadora
+  - Tipo de entrega: Librería Node.js
+
+### Historia de usuario #4: Como usuario final quiero que mi privacidad esté garantizada al no tener datos personales registrados en la aplicación.
+
+#### frontendTasks:
+- Implementar seguridad y protección de datos (HTML/CSS/JavaScript) - Objectivo: Proporcionar medidas de seguridad para preservar la privacidad de los usuarios al utilizar la calculadora
+  - Tipo de entrega: Función JavaScript que garantiza la protección de datos y evita el almacenamiento de información personal
+
+#### backendTasks:
+- Implementar seguridad y protección de datos (SQL o NoSQL) - Objectivo: Proporcionar medidas de seguridad para preservar la privacidad de los usuarios al utilizar la calculadora
+  - Tipo de entrega: Medidas de seguridad en el diseño de base de datos y API REST/GraphQL
+
+Criterios de aceptación
+------------------------
+
+Definición de Done:
+- El resultado de las operaciones matemáticas es correcto y se muestra inmediatamente.
+- La interfaz de usuario es intuitiva y fácil de navegar.
+- Los valores ingresados en la calculadora pueden ser guardados o restaurados según sea deseado por el usuario.
+- En caso de errores, estos son manejados apropiadamente para preservar la integridad y confiabilidad de la aplicación.
+
+Requisitos no funcionales:
+- La aplicación debe soportar diferentes tamaños de pantalla en dispositivos móviles y ordenadores.
+- La calculadora debe ser rápida y eficiente al procesar las operaciones matemáticas ingresadas por el usuario.
+- El diseño de la interfaz de usuario debe cumplir con estándares de accesibilidad para que pueda utilizarse por personas con diferentes capacidades y necesidades.
+- La aplicación debe estar disponible en línea y offline sin requerir una conexión permanente a internet.
