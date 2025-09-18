@@ -1,0 +1,26 @@
+ **Frontend Tasks:**
+
+1. Crear el diseño de interfaz de usuario atractiva y moderna adaptándose a diferentes tamaños de pantalla.
+- Entrega: Archivo .figma (Figma)
+
+2. Implementar un botón para limpiar la calculadora con una animación atractiva para borrar el historial y reiniciar la calculadora.
+- Entrega: Archivo .html/.css/.js
+
+3. Crear un histórico de las últimas operaciones realizadas para facilitar la revisión del historial.
+- Entrega: Archivo .html/.js
+
+4. Implementar botones para las cuatro operaciones básicas (sumar, restar, multiplicar y dividir) y mostrar el resultado en pantalla después de cada operación.
+
+   a. Implementar un botón para sumar y mostrar el resultado en pantalla.
+   - Entrega: Archivo .html/.js
+
+   b. Implementar un botón para restar y mostrar el resultado en pantalla.
+   - Entrega: Archivo .html/.js
+
+   c. Implementar un botón para multiplicar y mostrar el resultado en pantalla.
+   - Entrega: Archivo .html/.js
+
+   d. Implementar un botón para dividir y mostrar el resultado en pantalla.
+   - Entrega: Archivo .html/.js
+
+En cada entrega se proporciona el código HTML, CSS y JavaScript necesario para implementar la función solicitada. Se respetan las reglas estrictas indicadas y se mantiene el código limpio, organizado y siguiendo buenas prácticas de frontend.
