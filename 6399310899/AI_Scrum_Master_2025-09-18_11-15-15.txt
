@@ -1,0 +1,21 @@
+ A continuación, se presentan los resultados generados para el proyecto de la calculadora básica:
+
+**Backlog Inicial:**
+- Calculadora Básica
+  - Historia de usuario #1: Como usuario final quiero poder ingresar números en la interfaz para realizar operaciones matemáticas.
+    * frontendTasks: Implementar una interfaz de entrada de datos. (Lenguaje: HTML/CSS)
+    * backendTasks: Crear un sistema de manejo de números y operadores. (Lenguaje: JavaScript)
+  - Historia de usuario #2: Como usuario final quiero que el resultado de las operaciones sea mostrado correctamente y de forma inmediata.
+    * frontendTasks: Implementar un sistema para mostrar el resultado. (Lenguaje: HTML/CSS/JavaScript)
+  - Historia de usuario #3: Como usuario final quiero que pueda guardar o restaurar los valores previamente ingresados en la calculadora.
+    * frontendTasks: Implementar un sistema para almacenar y recuperar valores (Lenguaje: JavaScript)
+  - Historia de usuario #4: Como usuario final quiero que mi privacidad esté garantizada al no tener datos personales registrados en la aplicación.
+    * backendTasks: Implementar una política de privacidad para la aplicación. (Lenguaje: JavaScript)
+  - Criterios de aceptación:
+    * frontendTasks: Verificar que el resultado de las operaciones sea mostrado correctamente y de forma inmediata. (Lenguaje: JavaScript)
+    * backendTasks: Verificar que el resultado de las operaciones sea correcto. (Lenguaje: JavaScript)
+  - Requisitos no funcionales:
+    * frontendTasks: Implementar diseños responsivos adaptados a diferentes tamaños de pantalla en dispositivos móviles y ordenadores. (Lenguaje: HTML/CSS)
+    * backendTasks: Optimizar la velocidad y eficiencia del procesamiento de operaciones matemáticas. (Lenguaje: JavaScript)
+    - Historia de usuario #3: Implementar accesibilidad a menus y opciones de la calculadora para que puedan ser utilizadas por personas con diferentes capacidades y necesidades. (Lenguaje: HTML/CSS/JavaScript)
+    * frontendTasks: Implementar funcionalidad offline para la aplicación. (Lenguaje: JavaScript)
