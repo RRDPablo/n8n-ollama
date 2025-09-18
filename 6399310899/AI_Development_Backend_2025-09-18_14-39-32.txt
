@@ -1,0 +1,7 @@
+ Como desarrollador de backend, mi tarea consistiría en recibir las entregables relacionados con el almacenamiento de los últimos cálculos realizados en cada Sprint, ya sea por suma, multiplicación, división o resta.
+
+Para cada entregable de Sprint 1 y Sprint 2, tendría que implementar un sistema de almacenamiento de los últimos cálculos realizados para el backend utilizando las bibliotecas especificadas (Realm o CoreData en iOS y Room en Android).
+
+Además, en Sprint 3 tendría que crear el almacenamiento para los últimos cálculos realizados por resta, ya que fue agregado como entregable adicional.
+
+Las tareas deberían ser entregadas en forma de código funcional, siguiendo las reglas estrictas y manteniendo el código limpio y profesional. Todo el código debería estar integrado y funcionar correctamente con los otros componentes del sistema.
