@@ -1,0 +1,61 @@
+  A continuación, se presentan los resultados generados para el proyecto de la calculadora básica. Cada tarea es un archivo `.html` o `.js`, con nombre específico:
+
+1. Implementar una interfaz de entrada de datos. (Lenguaje: HTML/CSS)
+   - index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Básica</title>
+    <style>
+      /* ... */
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <!-- Numeros -->
+      <input type="number" id="number-0" value="0" />
+      <input type="number" id="number-1" value="1" />
+      <input type="number" id="number-2" value="2" />
+      <input type="number" id="number-3" value="3" />
+      <input type="number" id="number-4" value="4" />
+      <input type="number" id="number-5" value="5" />
+      <input type="number" id="number-6" value="6" />
+      <input type="number" id="number-7" value="7" />
+      <input type="number" id="number-8" value="8" />
+      <input type="number" id="number-9" value="9" />
+      <!-- Operadores -->
+      <button class="operator" data-operation="+">+</button>
+      <button class="operator" data-operation="-">-</button>
+      <button class="operator" data-operation="*">*</button>
+      <button class="operator" data-operation="/">/</button>
+      <!-- Botones -->
+      <button id="clear">C</button>
+      <button id="result">=</button>
+    </div>
+    <!-- ... -->
+  </body>
+</html>
+```
+
+2. Implementar un sistema para mostrar el resultado. (Lenguaje: HTML/CSS/JavaScript)
+   - index.js
+
+```javascript
+const result = document.querySelector("#result");
+const clear = document.getElementById("clear");
+// ...
+function updateResult(numero) {
+  // ...
+}
+// ...
+// Seleccionar el evento click para cada tecla del teclado numérico
+// y actualizar el resultado de la operación
+const numeros = document.querySelectorAll("#number-[0-9]");
+numeros.forEach((numero) => {
+  numero.addEventListener("click", () => updateResult(numero.value));
+});
+```
