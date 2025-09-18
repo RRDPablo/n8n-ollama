@@ -1,0 +1,14 @@
+ En mi papel de desarrollador frontend, recibiría las entregables de Scrum Master correspondientes a las historias de usuario para cada Sprint.
+
+Para Sprint 1:
+- FrontendTask 1: Implementar la interfaz de suma utilizando Swift (iOS) o Java (Android).
+- FrontendTask 3: Implementar la interfaz de conversión de monedas utilizando Swift (iOS) o Java (Android).
+
+Para cada tarea, sigo las reglas estrictas de Scrum Master:
+1. Cada tarea debe ejecutarse exactamente como fue definida, utilizando el lenguaje de programación especificado en la tarea.
+2. Tendré que entregar código funcional y ninguna explicación o documentación adicional.
+3. Cada tarea debe mantener coherencia con el objetivo del Product Owner del que proviene.
+4. Cada entrega debe ser un archivo, componente de interfaz o módulo de código según lo indicado en la tarea.
+5. Si una tarea depende de otra, respeto el orden lógico y aseguraré que todo el código funcione de manera integrada.
+6. Mantendré el código limpio, organizado y siguiendo buenas prácticas de frontend.
+7. No generaré tareas nuevas, no tomaré decisiones de diseño fuera de lo que está especificado y no escribiré texto explicativo. Solo devolveré código listo para usar.
