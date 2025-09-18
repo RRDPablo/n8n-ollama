@@ -1,0 +1,79 @@
+ En este ejemplo, como desarrollador backend, estoy asegurándome de cumplir con las reglas estrictas especificadas:
+
+### Historia de usuario #1 (backendTasks)
+- Crear archivo "app.js" para implementar API REST utilizando Node.js y Express.
+
+```javascript
+const express = require('express');
+const app = express();
+
+// ...
+
+app.use(express.json());
+
+app.post('/calculate', function (req, res) {
+  // Procesar el valor de entrada en la operación solicitada y devolver resultado.
+});
+
+// ...
+
+const port = process.env.PORT || 3000;
+app.listen(port);
+```
+
+### Historia de usuario #2 (backendTasks)
+- Agregar código al archivo "app.js" para procesar los valores ingresados en la operación solicitada y devolver el resultado.
+
+```javascript
+app.post('/calculate', function (req, res) {
+  const operation = req.body.operation;
+  const firstNumber = parseFloat(req.body.first_number);
+  const secondNumber = parseFloat(req.body.second_number);
+
+  let result;
+
+  switch (operation) {
+    case 'sum':
+      result = firstNumber + secondNumber;
+      break;
+    case 'subtract':
+      result = firstNumber - secondNumber;
+      break;
+    case 'multiply':
+      result = firstNumber * secondNumber;
+      break;
+    case 'divide':
+      if (secondNumber === 0) {
+        res.status(400).send({ error: 'Error: Cannot divide by zero' });
+      } else {
+        result = firstNumber / secondNumber;
+      }
+      break;
+  }
+
+  res.json({ result });
+});
+```
+
+### Historia de usuario #3 (backendTasks)
+- Crear archivo "db.js" para proporcionar API REST para almacenar y consultar valores ingresados en la calculadora.
+
+```javascript
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+
+// ...
+
+app.use(bodyParser.json());
+
+app.post('/save', function (req, res) {
+  // Almacenar el valor ingresado en la base de datos.
+});
+
+app.get('/load', function (req, res) {
+  // Consultar y devolver los valores almacenados en la base de datos.
+});
+
+// ...
+```
